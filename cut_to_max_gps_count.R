@@ -6,9 +6,9 @@ library(data.table)
 
 # Data variables -----------
 args <-  commandArgs(trailingOnly=TRUE)
-data_dir <- args[1] #"~/Desktop/masters_thesis/real_data/"
-dfname <- args[2] #"revised_realdata_w_batch_id_w_road_id.csv"
-output_df_name <- args[3] #"revised_realdata_w_batch_id_w_road_id_batchcut.csv"
+data_dir <- args[1] 
+dfname <- args[2] 
+output_df_name <- args[3] 
 
 # Print --------
 print(paste0("Directory: ", data_dir))
