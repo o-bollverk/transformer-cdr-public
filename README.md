@@ -27,7 +27,7 @@ Corresponding scrips are as follows:
 
 Example run is provided in example_run.sh
 
-´´´bash
+```bash
 #!/bin/bash
 
 python -c 'print ("Starting run for mapmatching")'
@@ -70,4 +70,4 @@ srun python run_single_transformer.py \
 --src_col=cell_id \
 --timestamp_file="recorded_timestamp.json"
 
-´´´bash
+```bash
