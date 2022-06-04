@@ -69,5 +69,3 @@ srun python run_single_transformer.py \
 --cell_transformer=1 \
 --src_col=cell_id \
 --timestamp_file="recorded_timestamp.json"
-
-```bash
