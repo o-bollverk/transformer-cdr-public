@@ -3,7 +3,7 @@
 This is the initial public repository for CDR-Based Trajectory Reconstruction Using Transformers.
 This code was used in the thesis avaliable at:
 
-https://comserv.cs.ut.ee/ati_thesis/datasheet.php?language=en
+https://comserv.cs.ut.ee/ati_thesis/datasheet.php?id=75306&year=2022?language=eng
 
 ![graph_abstract_eng_Bollverk](https://user-images.githubusercontent.com/65232333/189361704-1160f6b9-8fd6-4bba-94c7-05d2180ce30b.png)
 
