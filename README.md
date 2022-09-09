@@ -5,7 +5,7 @@ This code was used in the thesis avaliable at:
 
 https://comserv.cs.ut.ee/ati_thesis/datasheet.php?language=en
 
-<img width="1440" alt="initial_visual_abstract" src="https://user-images.githubusercontent.com/65232333/172000568-76922895-78a8-4ac5-8429-2d9055a5bb42.png">
+![graph_abstract_eng_Bollverk](https://user-images.githubusercontent.com/65232333/189361704-1160f6b9-8fd6-4bba-94c7-05d2180ce30b.png)
 
 Computations were performed on University of Tartu High Computing Center with 3 NVIDIA A100-80GB GPUs ( https://ut.ee/en/high-performance-computing-center).
 
