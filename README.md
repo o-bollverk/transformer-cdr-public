@@ -11,7 +11,7 @@ Computations were performed on University of Tartu High Computing Center with 3 
 
 ### Overview of the data processing steps
 
-1) Trajectories are extracted from the cellular network data and enriched with CDR information
+1) GPS Trajectories are extracted from GPS transmitter data and joined with synthetical cellular network data, as described by the geomatching algorithm in the thesis
 2) Each gps point is attached a road id in a road network, constructed using OSM linestrings for Tartu area
 3) Trajectories containing more than 200 points are split into 3, for memory concuption purposes and for avoiding data mismatch problems
 4) Each trajectory is padded on the road-id dimension. As a result, every road contains an equal no of GPS points (padding is done to the road, which contains the maximum no of points in the whole dataset).
