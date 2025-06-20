@@ -68,6 +68,11 @@ srun python run_single_transformer.py \
 --learning_rate=0.0006 \
 --reduction=sum \
 --load_cv_indices=1 \
+--max_folds=5 \
+--cell_transformer=1 \
+--src_col=cell_id \
+--timestamp_file="recorded_timestamp.json"
+
 ```
 
 ## Citation 
@@ -83,7 +88,3 @@ If you use our source code or synthetic CDR dataset in an academic work, please 
 
 }
 ```
---max_folds=5 \
---cell_transformer=1 \
---src_col=cell_id \
---timestamp_file="recorded_timestamp.json"
