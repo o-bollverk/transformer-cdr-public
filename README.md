@@ -68,7 +68,7 @@ srun python run_single_transformer.py \
 --learning_rate=0.0006 \
 --reduction=sum \
 --load_cv_indices=1 \
-
+```
 
 ## Citation 
 If you use our source code or synthetic CDR dataset in an academic work, please cite:
