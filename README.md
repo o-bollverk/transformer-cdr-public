@@ -68,6 +68,21 @@ srun python run_single_transformer.py \
 --learning_rate=0.0006 \
 --reduction=sum \
 --load_cv_indices=1 \
+
+
+## Citation 
+If you use our source code or synthetic CDR dataset in an academic work, please cite:
+```
+@inproceedings{bollverk2023cdr,
+  title={Cdr-based trajectory reconstruction of mobile network data using transformers},
+  author={Bollverk, Oliver and Hadachi, Amnir},
+  booktitle={2023 8th International Conference on Models and Technologies for Intelligent Transportation Systems (MT-ITS)},
+  pages={1--6},
+  year={2023},
+  organization={IEEE}
+
+}
+```
 --max_folds=5 \
 --cell_transformer=1 \
 --src_col=cell_id \
